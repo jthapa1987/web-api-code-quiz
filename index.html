@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>JavaScript Code Quiz</title>
+  <link rel="stylesheet" href="./assets/css/style.css" />
+</head>
+<body>
+
+  <header>
+    <div id="view-scores">View High Scores</div>
+    <div id="timer">Time: 0</div>
+  </header>
+
+  <main id="container">
+
+    <section id="start-screen">
+      <h1>JavaScript Code Quiz</h1>
+      <p>Try to answer the following JavaScript questions within the time limit. Incorrect answers subtract time!</p>
+      <button id="start-btn">Start Quiz</button>
+    </section>
+
+    <section id="question-screen" class="hide">
+      <h2 id="question-title"></h2>
+      <div id="choices"></div>
+      <div id="feedback"></div>
+    </section>
+
+    <section id="end-screen" class="hide">
+      <h2>All Done!</h2>
+      <p>Your final score: <span id="final-score"></span></p>
+      <input type="text" id="initials" placeholder="Enter initials" />
+      <button id="submit-score">Submit</button>
+    </section>
+
+    <section id="highscores-screen" class="hide">
+      <h2>High Scores</h2>
+      <ol id="highscores-list"></ol>
+      <button id="go-back">Go Back</button>
+      <button id="clear-scores">Clear High Scores</button>
+    </section>
+
+  </main>
+
+  <script src="./assets/script/script.js"></script>
+</body>
+</html>

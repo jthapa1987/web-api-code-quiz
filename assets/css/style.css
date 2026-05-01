@@ -1,0 +1,44 @@
+body {
+  font-family: Arial, sans-serif;
+  background: #f4f4f4;
+  margin: 0;
+  padding: 0;
+  text-align: center;
+}
+
+header {
+  display: flex;
+  justify-content: space-between;
+  padding: 15px;
+  background: #333;
+  color: white;
+}
+
+button {
+  padding: 10px 20px;
+  margin-top: 15px;
+  cursor: pointer;
+  background: #007bff;
+  color: white;
+  border: none;
+  border-radius: 5px;
+}
+
+button:hover {
+  background: #0056b3;
+}
+
+.hide {
+  display: none;
+}
+
+#choices button {
+  display: block;
+  width: 50%;
+  margin: 10px auto;
+}
+
+#feedback {
+  margin-top: 15px;
+  font-weight: bold;
+}
